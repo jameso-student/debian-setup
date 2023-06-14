@@ -1,6 +1,6 @@
 #!/bin/bash
-sudo pacman -Syu
-sudo pacman -S \
+sudo apt update && sudo apt upgrade
+sudo apt install \
 	i3 \
 	neovim \
 	lightdm \
@@ -14,7 +14,7 @@ sudo pacman -S \
 	unzip
 
 # Create .Xresources
-cat xresources_setup > ~/.Xresources
+cat .Xresources > ~/.Xresources
 
 # Install DejaVu Nerd Font
 wget https://github.com/ryanoasis/nerd-fonts/releases/download/v3.0.1/DejaVuSansMono.zip
