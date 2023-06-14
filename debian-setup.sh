@@ -7,6 +7,7 @@ sudo apt install \
 	lightdm-gtk-greeter \
 	rxvt-unicode \
 	git \
+	thunar \
 	wget \
 	curl \
 	zsh \

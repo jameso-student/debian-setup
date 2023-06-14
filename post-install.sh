@@ -8,7 +8,7 @@ sudo sed -i 's/#background=/background=/' /etc/lightdm/lightdm-gtk-greeter.conf
 
 # Remove gnome  
 sudo apt-get autoremove gdm3
-sudo apt-get autoremove --purge gnome*
+sudo apt-get autoremove --purge gnome* xterm
 
 # Apply Xresources
 sudo xrdb ~/.Xresources
