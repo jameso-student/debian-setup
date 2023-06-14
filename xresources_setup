@@ -1,0 +1,66 @@
+URxvt.perl-lib: /home/james/.config/urxvt/ext
+URxvt.perl-ext-common: resize-font
+
+URxvt.keysym.C-minus: resize-font:smaller
+URxvt.keysym.C-plus: resize-font:bigger
+URxvt.keysym.C-equal: resize-font:equal
+
+URxvt.iso14755: false
+URxvt.iso14755_52: false
+
+URxvt.font: xft:DejaVuSansM Nerd Font:size=15
+
+!Tokyo Night theme
+! general
+*foreground: #a9b1d6
+*background: #1a1b26
+*cursorColor: #a9b1d6
+
+! terminal padding color
+*borderColor: #1a1b26
+
+! black
+*color0: #1a1b26
+*color8: #4e5173
+
+! red
+*color1: #F7768E
+*color9: #F7768E
+
+! green
+*color2: #9ECE6A
+*color10: #9ECE6A
+
+! yellow
+*color3: #E0AF68
+*color11: #E0AF68
+
+! blue
+*color4: #7AA2F7
+*color12: #7AA2F7
+
+! magenta
+*color5: #9a7ecc
+*color13: #9a7ecc
+
+! cyan
+*color6: #4abaaf
+*color14: #4abaaf
+
+! white
+*color7: #acb0d0
+*color15: #acb0d0
+! Tokyo Night theme ends
+
+! Rofi
+rofi.font: monospace 12
+rofi.padding: 20
+rofi.line-padding: 2
+rofi.color-enabled: true
+rofi.hide-scrollbar: true
+rofi.separator-style: solid
+rofi.color-window: #1c2023, #919ba0, #1c2023
+rofi.color-normal: #1c2023, #919ba0, #1c2023, #a4a4a4, #1c2023
+rofi.color-urgent: argb:00000000, #f43753, argb:00000000, argb:00000000, #e29a49
+rofi.color-active: argb:00000000, #49bbfb, argb:00000000, argb:00000000, #e29a49
+rofi.kb-cancel: Escape,Alt+F1
